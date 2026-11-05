@@ -126,39 +126,40 @@ The sales pipeline acts as the central fact table, connected to lookup tables fo
 
 ## Dashboard Analysis
 
-### Overview
+### Sales Opportunity Overview
 
-The overview helps managers assess overall sales performance and compare sales agents’ contributions to identify strengths and areas for support.
+This is the main page for sales managers. Users select a manager, year, and quarter to review their team’s performance. KPI cards show revenue, wins, average sale value, time to close, and engaged opportunities. Prior-quarter figures and company benchmarks appear beneath the relevant KPIs to give managers context for their results.
+The agent heatmap helps managers spot differences in performance across their team. The product table shows sales and win rates side by side, so managers can see which products bring in the most revenue and which convert most often.
 
 <img width="1004" height="559" alt="Screenshot 2026-11-05 at 11 13 09" src="https://github.com/user-attachments/assets/04a19b97-b14c-4a02-afb1-b4a566985558" />
 
 
-### Quarterly sales performance
+### Open Opportunities Report
 
-The quarterly view helps managers assess sales outcomes and changes over time using revenue, deal counts and win rate.
+Users select a manager to view their team’s engaged opportunities. The table shows the sales agent, product, account where available, engagement date, and estimated value. Managers can sort by engagement date to find older opportunities that may need follow-up, or by estimated value to review the largest opportunities first.
 
-<img width="1004" height="559" alt="Screenshot 2026-11-05 at 11 10 34" src="https://github.com/user-attachments/assets/cb97a3e0-0724-461b-8d37-42f46f6ff69c" />
-
-
-### Team performance
-
-Team comparisons and company benchmarks give managers context for reviewing results. 
-
-<img width="1004" height="559" alt="Screenshot 2026-11-05 at 11 06 06" src="https://github.com/user-attachments/assets/3ec1f437-27b7-485d-b113-42521f63ebee" />
+<img width="1004" height="559" alt="Screenshot 2026-11-05 at 11 08 06" src="https://github.com/user-attachments/assets/47f739a7-52f6-44f1-b6ad-1792f9565312" />
 
 
-### Products and customers
+### Current Quarter Sales
 
-Product and account analysis shows where sales came from and which parts of the business contributed most to results.
+This page lets managers explore where their won revenue came from in the selected quarter. They can compare customer sectors, hover over countries to view sales, and see which products and accounts contributed most. The sales detail table lets them review individual wins, including who closed each deal, how long it took, and its sale value.
 
 <img width="1004" height="559" alt="Screenshot 2026-11-05 at 11 06 42" src="https://github.com/user-attachments/assets/bc1f7da5-4b94-4a00-9725-a14b408f24fe" />
 
 
-### Open pipeline
+### Performance Over Time
 
-The pipeline view focuses on opportunities that remain open, supporting deal review and follow-up.
+Users select a manager and year to follow the team’s quarterly revenue against the company’s average team revenue, shown as a dotted line. The new opportunities chart groups deals by when they were first engaged and shows their recorded stage. Managers can also use the product heatmap to see where win rates rose or fell across quarters.
 
-<img width="1004" height="559" alt="Screenshot 2026-11-05 at 11 08 06" src="https://github.com/user-attachments/assets/47f739a7-52f6-44f1-b6ad-1792f9565312" />
+<img width="1004" height="559" alt="Screenshot 2026-11-05 at 11 10 34" src="https://github.com/user-attachments/assets/cb97a3e0-0724-461b-8d37-42f46f6ff69c" />
+
+
+### Quarterly Performance by Team
+
+Users select a year and quarter to compare managers across four measures: won revenue, win rate, average sale value, and days to close. Dotted benchmark lines help readers see where each team sits relative to the company and whether the teams that lead in revenue also lead in conversion or closing speed.
+
+<img width="1004" height="559" alt="Screenshot 2026-11-05 at 11 06 06" src="https://github.com/user-attachments/assets/3ec1f437-27b7-485d-b113-42521f63ebee" />
 
 
 ---
